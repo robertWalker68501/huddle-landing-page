@@ -6,21 +6,18 @@ html {
 }
 
 body {
+  background-image: url("../images/bg-mobile.svg");
+  background-color: $violet;
+  background-repeat: no-repeat;
+  background-position: top;
   box-sizing: border-box;
-  color: rgba($soft-magenta, 0.5);
+  color: #fff;
   font-family: $default-font-family;
   font-size: $default-front-size;
   font-weight: $default-font-weight;
+  padding: 3rem 4rem 4rem 4rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $default-heading-font-family;
-}
-
-h1 {
-  font-weight: 600;
-}
-
-h4 {
-  font-weight: 400;
 }
