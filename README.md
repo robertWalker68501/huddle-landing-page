@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://robertwalker68501.github.io/huddle-landing-page/)
+- Live Site URL: [Github](https://robertwalker68501.github.io/huddle-landing-page/)
 
 ## My process
 
@@ -42,6 +42,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Github](https://robertwalker68501.github.io/huddle-landing-page/)
 - Frontend Mentor - [@robertWalker68501](https://www.frontendmentor.io/profile/robertWalker68501)
 - Twitter - [@RobertW15135868](https://www.twitter.com/RobertW15135868)
