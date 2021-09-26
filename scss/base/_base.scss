@@ -1,0 +1,26 @@
+@use "../abstracts/fonts" as *;
+@use "../abstracts/colors" as *;
+
+html {
+  font-size: 62.5%; // Sets 1rem to = 10px
+}
+
+body {
+  box-sizing: border-box;
+  color: rgba($soft-magenta, 0.5);
+  font-family: $default-font-family;
+  font-size: $default-front-size;
+  font-weight: $default-font-weight;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $default-heading-font-family;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 400;
+}
