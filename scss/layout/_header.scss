@@ -1,4 +1,5 @@
 @use "../abstracts/colors" as *;
+@use "../abstracts/mixins" as *;
 
 header {
   display: flex;
@@ -7,6 +8,10 @@ header {
   & .icon {
     font-size: 2.2rem;
     margin-right: .5rem;
+
+    @include breakpoint(lg) {
+      font-size: 4rem;
+    }
   }
 
   & .logo-text {
@@ -19,5 +24,9 @@ header {
       color: $soft-magenta;
       cursor: pointer;
     };
+
+    @include breakpoint(lg) {
+      font-size: 4rem;
+    }
   }
 }

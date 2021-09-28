@@ -1,5 +1,6 @@
 @use "../abstracts/fonts" as *;
 @use "../abstracts/colors" as *;
+@use "../abstracts/mixins" as *;
 
 html {
   font-size: 62.5%; // Sets 1rem to = 10px
@@ -16,6 +17,11 @@ body {
   font-size: $default-front-size;
   font-weight: $default-font-weight;
   padding: 3rem 4rem 4rem 4rem;
+
+  @include breakpoint(lg) {
+  background-size: cover;
+  padding: 6rem 7rem 4rem 7rem;
+  }
 }
 
 h1,h2,h3,h4,h5,h6 {

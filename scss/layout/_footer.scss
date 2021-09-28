@@ -1,4 +1,5 @@
 @use "../abstracts/colors" as *;
+@use "../abstracts/mixins" as *;
 
 footer {
 
@@ -17,7 +18,12 @@ footer {
     align-items: center;
     list-style: none;
     margin: 5rem auto;
-    width: 50%;
+    width: 40%;
+
+    @include breakpoint(lg) {
+      justify-content: flex-end;
+      margin: 7rem 0;
+    }
   }
 
   .social-icon {
@@ -36,6 +42,12 @@ footer {
       border-color: $soft-magenta;
       color: $soft-magenta;
     }
+
+    @include breakpoint(lg) {
+      font-size: 2rem;
+      margin-left: 2rem;
+      padding: 2rem;
+    }
   }
 
   .attribution {
@@ -43,5 +55,17 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    @include breakpoint(lg) {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+    }
+  }
+
+  @include breakpoint(lg) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
